@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Panda con corazón diciendo "Te Amo" -->
+        <div class="panda-corazon">
+            <img src="https://img.freepik.com/vector-premium/lindo-panda-corazon-lindo-panda-te-amo-tarjeta-texto-dia-san-valentin-ilustracion-vectorial_112545-4525.jpg?w=740" alt="Panda con Corazón" id="pandaCorazon">
+        </div>
+
+        <!-- Corazones flotando -->
+        <div class="hearts-container" id="heartsContainer"></div>
+
+        <!-- Panda con carta de amor -->
+        <div class="panda-carta" id="pandaCarta" onclick="abrirCarta()">
+            <img src="https://thumbs.dreamstime.com/z/lindo-panda-de-dibujos-animados-con-carta-amor-roja-vector-ilustraci%C3%B3n-animal-aislado-en-blanco-218443688.jpg?w=768" alt="Panda con Carta" id="pandaCartaImg">
+        </div>
+
+        <!-- Carta con mensaje -->
+        <div class="carta" id="carta">
+            <p>
+                Churitos sé que estás pasando por un momento difícil, y quiero recordarte lo valioso que eres para mí y para todos los que te rodean. A veces, los desafíos parecen grandes, pero tienes una fortaleza enorme dentro de ti, una luz que siempre brilla y que me inspira cada día. Quiero recordarte las palabras del Salmo 46:5: "Dios está en medio de ella no será conmovida"; Recuerda que Dios está contigo, fortaleciéndote y guiándote, y yo estaré a tu lado para apoyarte en cada paso. ¡Eres increíble y todo esto también pasará!
+            </p>
+            <button onclick="mostrarMensajeFinal()">Cerrar Carta</button>
+        </div>
+
+        <!-- Mensaje final con panda abrazando -->
+        <div class="mensaje-final" id="mensajeFinal">
+            <img src="https://img.freepik.com/vector-premium/lindo-panda-corazon-lindo-panda-te-amo-tarjeta-texto-dia-san-valentin-ilustracion-vectorial_112545-4525.jpg?w=740" alt="Panda Abrazando">
+            <h2>Te Amo</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
